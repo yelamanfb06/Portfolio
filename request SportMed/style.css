@@ -1,0 +1,73 @@
+body {
+	background-image: url(img/background.jpg);
+	background-size: 100%;
+	height: 1280px;
+	width: 1280px;
+
+}
+.content {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}		
+.container {
+ 	width:800px;
+ 	height: 300px;
+ 	margin: 250px auto 0 auto;
+ 	text-align: center;
+}
+.container img {
+ 	width:255px;
+ 	height:64px;
+ 	margin: -60px 0 30px 0;
+}
+			/*User-password*/
+.input {
+ 	width: 256px;
+ 	height:42px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	border-radius: 5px;
+	padding-left: 40px;
+}
+			/*обводка*/
+.input input:hover {
+	box-shadow: 0 0 6px 3px rgba(243, 102, 100, 66);
+	border-radius: 5px;
+}
+		/*вход*/
+.submit {
+	padding: 13px 30px;
+	margin: 5px 0 20px 0;
+	font-size: 15px;
+	color: #fff;
+	background-color: #f9c247;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.submit:hover{
+ 	transition: all 0.5s;
+ 	background: #fff;
+ 	color: #664908;
+ 	border-radius: 5px;
+}
+.input:hover::before{
+ 	color: #000000;
+ 	transition: all 0.3s;
+ 	text-decoration: none;
+}
+.dot {
+ 	color: black;
+    text-decoration: none; /* Убираем подчеркивание */
+    border-bottom: 1px dashed #000030; /* Добавляем свою линию */ 
+}
+.dot:hover {
+    color: #f00000; /* Цвет ссылки при наведении на нее курсора */
+}
+
+.inf-log-form {
+	float: right;
+	display: block;
+	line-height: 42px;
+}
